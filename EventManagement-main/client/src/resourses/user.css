@@ -1,0 +1,82 @@
+/* user.css */
+/* Your existing CSS styles for the user layout... */
+
+/* Styles for the top navigation bar */
+.user-topnav {
+
+  color: #121010;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+}
+
+/* Styles for the user-logo */
+.user-logo {
+  color: #0c0c0c;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Styles for the user-role */
+.user-role {
+  margin-left: 10px;
+}
+
+/* Styles for the user-menu */
+.user-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for each menu item */
+.user-menu-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Styles for the active menu item */
+.user-active-menu-item {
+  background-color: #68d1fb;
+}
+
+/* Styles for the media query (to control responsiveness) */
+@media screen and (max-width: 768px) {
+
+  /* Hide the user-logo on smaller screens when collapsed */
+  .user-logo {
+    display: none;
+  }
+
+  /* Show the menu icon */
+  .menu-icon {
+    display: block;
+  }
+
+  /* Styles for the user-menu items on small screens */
+  .user-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: #333;
+    width: 100%;
+  }
+
+  .menu-active .user-menu {
+    display: flex;
+  }
+}

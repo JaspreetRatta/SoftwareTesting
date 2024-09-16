@@ -1,0 +1,83 @@
+.add-memory-container {
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.add-memory-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  min-height: 100vh;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.hero-image {
+  width: 70%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.my-memorylist-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #3A7BDB;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Form Styles */
+.ant-form-item-label>label {
+  color: #333;
+  font-weight: 600;
+}
+
+.ant-input,
+.ant-picker,
+.ant-input-affix-wrapper,
+.ant-btn {
+  border-radius: 8px;
+}
+
+.ant-btn {
+  background-color: #3A7BDB;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+  background-color: #2a5a9e;
+  color: #fff;
+}
+
+/* Tooltip Styles */
+.ant-tooltip-inner {
+  background-color: #3A7BDB;
+  border-radius: 8px;
+  display: none;
+}
+
+.ant-tooltip-arrow-content {
+  background-color: #3A7BDB;
+}
+
+.img-showmore {
+  width: 100%;
+  height: 350px;
+  max-width: 350px;
+  margin: auto;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .add-memory-container {
+    flex-direction: column;
+  }
+}

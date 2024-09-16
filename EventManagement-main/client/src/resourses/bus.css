@@ -1,0 +1,33 @@
+.bus-container {
+  width: 300px !important;
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 30px;
+
+}
+
+.steering-img{
+  padding: 10px;
+}
+
+.seat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 10px;
+  border: 1px ;
+  border-radius: 5px;
+  background-color: #d5f4ea;
+}
+
+.selected-seat{
+    background-color : #05be5f;
+    color: white;
+}
+
+.booked-seat{
+    background-color: #c9c9c9;
+    color: white;
+    pointer-events: none !important;
+    cursor: disabled !important;
+}

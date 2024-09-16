@@ -1,0 +1,85 @@
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.auth-container {
+  width: 400px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.text-lg {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #333;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #1890ff;
+}
+
+.primary-btn {
+  padding: 12px 24px;
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.primary-btn:hover {
+  background-color: #40a9ff;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.register-link,
+.forgot-password-link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #1890ff;
+  transition: color 0.3s ease-in-out;
+}
+
+.register-link:hover,
+.forgot-password-link:hover {
+  color: #40a9ff;
+}
+
+  
+
+
+  
+ 

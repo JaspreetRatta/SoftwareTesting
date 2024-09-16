@@ -1,0 +1,51 @@
+.ant-upload-select-picture-card,
+.ant-upload-list-picture-card-container {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.profile-detail {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.photo-upload-container {
+  margin-top: 20px;
+}
+
+.profile-photo {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.photo-upload-form {
+  display: flex;
+  align-items: center;
+}
+
+.photo-upload-input {
+  margin-right: 10px;
+}
+
+.photo-upload-button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.photo-upload-button:hover {
+  background-color: #45a049;
+}
